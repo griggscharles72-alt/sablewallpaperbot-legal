@@ -9,13 +9,14 @@
   "cycle_hours": 8,
   "single_cycle": true,
   "offload_enabled": true,
-  "paypal_email": "cgriggse32@gmail.com",
 
-  "replicate_api_token": ENV.REPLICATE_API_TOKEN,
+  "paypal_email": "ENV.PAYPAL_EMAIL",
+
+  "replicate_api_token": "ENV.REPLICATE_API_TOKEN",
 
   "gumroad_api": {
     "enabled": true,
-    "api_key": "zPcJO9zrGl1EOLGFKqtVmh7XXXXXXXXXXXXXXXX",
+    "api_key": "ENV.GUMROAD_API_KEY",
     "default_price": 3.99,
     "currency": "USD",
     "publish_live": false
@@ -23,18 +24,18 @@
 
   "reddit_api": {
     "enabled": true,
-    "client_id": "YOUR_CLIENT_ID",
-    "secret": "YOUR_SECRET",
-    "user": "Full-Possibility-596",
-    "password": "Madalyn_02",
-    "user_agent": "SableWallpaperBot/0.1 by Full-Possibility-596",
+    "client_id": "ENV.REDDIT_CLIENT_ID",
+    "secret": "ENV.REDDIT_SECRET",
+    "user": "ENV.REDDIT_USER",
+    "password": "ENV.REDDIT_PASSWORD",
+    "user_agent": "SableWallpaperBot/0.1 by ENV.REDDIT_USER",
     "subreddits": ["test", "wallpapers"]
   },
 
   "tiktok_api": {
     "enabled": false,
-    "client_key": "awjwe67emqtjac84",
-    "client_secret": "pAp8ekmoclUWNmypbfsu8hfFsNODPeT",
-    "auth_token": "TO_BE_GENERATED"
+    "client_key": "ENV.TIKTOK_CLIENT_KEY",
+    "client_secret": "ENV.TIKTOK_CLIENT_SECRET",
+    "auth_token": "ENV.TIKTOK_AUTH_TOKEN"
   }
 }
