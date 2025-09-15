@@ -1,0 +1,6 @@
+run:
+  processes:
+    server:
+      command: "python server.py"
+    bot:
+      command: "python bot.py"
