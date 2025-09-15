@@ -1,0 +1,16 @@
+# requirements.txt
+
+# Load environment variables from .env
+python-dotenv==1.0.0
+
+# Reddit API (praw makes it super easy)
+praw==7.7.1
+
+# Replicate API (AI image generation)
+replicate==0.25.1
+
+# HTTP requests for APIs
+requests==2.31.0
+
+# If you need to work with JSON
+simplejson==3.19.1
