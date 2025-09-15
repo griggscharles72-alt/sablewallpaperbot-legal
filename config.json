@@ -1,0 +1,40 @@
+{
+  "themes": {
+    "spiritual": "A pale, ethereal woman bathed in golden sunset light, her eyes glowing with cosmic resonance, angelic aura, surreal depth, highly detailed, 8k resolution, cinematic focus.",
+    "punk": "An interracial couple in a neon-lit city, tattoos glowing like circuitry, cyberpunk skyline, futuristic depth-of-field, dramatic shadows, hyperreal details.",
+    "classic": "A Renaissance-inspired portrait of a divine figure, delicate features, glowing halo, oil-painting textures, chiaroscuro lighting, timeless and spiritual.",
+    "cyberpunk": "An albino woman with radiant white hair and glowing symbols, standing in a futuristic cathedral of code, neon-blue highlights, layered depth, surreal dreamlike resonance."
+  },
+
+  "cycle_hours": 8,
+  "single_cycle": true,
+  "offload_enabled": true,
+  "paypal_email": "cgriggse32@gmail.com",
+
+  "replicate_api_token": ENV.REPLICATE_API_TOKEN,
+
+  "gumroad_api": {
+    "enabled": true,
+    "api_key": "zPcJO9zrGl1EOLGFKqtVmh7XXXXXXXXXXXXXXXX",
+    "default_price": 3.99,
+    "currency": "USD",
+    "publish_live": false
+  },
+
+  "reddit_api": {
+    "enabled": true,
+    "client_id": "YOUR_CLIENT_ID",
+    "secret": "YOUR_SECRET",
+    "user": "Full-Possibility-596",
+    "password": "Madalyn_02",
+    "user_agent": "SableWallpaperBot/0.1 by Full-Possibility-596",
+    "subreddits": ["test", "wallpapers"]
+  },
+
+  "tiktok_api": {
+    "enabled": false,
+    "client_key": "awjwe67emqtjac84",
+    "client_secret": "pAp8ekmoclUWNmypbfsu8hfFsNODPeT",
+    "auth_token": "TO_BE_GENERATED"
+  }
+}
