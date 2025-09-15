@@ -2,7 +2,7 @@ import os
 import json
 from dotenv import load_dotenv
 
-# Load environment variables from .env
+# Load environment variables
 load_dotenv()
 
 # Load config.json
